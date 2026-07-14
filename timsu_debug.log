@@ -1,0 +1,123 @@
+=== Timsu 2.0 Session Log ===
+[16:19:02] [INF] === Version: 1.1.31 ===
+[16:19:02] [INF] Starting Self-Diagnostic checks...
+[16:19:02] [DBG] Self-Diag: dbghelp.dll resolved.
+[16:19:02] [DBG] Self-Diag: wininet.dll resolved.
+[16:19:03] [DBG] Self-Diag: Internet connection verified.
+[16:19:04] [INF] Checking for updates...
+[16:19:04] [DBG] HTTP GET: https://raw.githubusercontent.com/krisministern/Timsu/main/version.txt
+[16:19:04] [DBG] HTTP success: 6 bytes
+[16:19:05] [DBG] HTTP GET: https://raw.githubusercontent.com/krisministern/Timsu/main/allowed_tokens.txt
+[16:19:05] [DBG] HTTP success: 4 bytes
+[16:19:06] [DBG] Fetching offsets.json...
+[16:19:06] [DBG] HTTP GET: https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/offsets.json
+[16:19:06] [DBG] HTTP success: 1261 bytes
+[16:19:06] [DBG] offsets.json size: 1261 bytes
+[16:19:06] [DBG] Fetching client_dll.json...
+[16:19:06] [DBG] HTTP GET: https://raw.githubusercontent.com/a2x/cs2-dumper/main/output/client_dll.json
+[16:19:06] [DBG] HTTP success: 213576 bytes
+[16:19:06] [DBG] client_dll.json size: 213576 bytes
+[16:19:06] [DBG] Parsing global offsets...
+[16:19:06] [DBG]   dwLocalPlayerPawn = 0x23a4238
+[16:19:06] [DBG]   dwLocalPlayerController = 0x237eba0
+[16:19:06] [DBG]   dwViewAngles = 0x23b9c78
+[16:19:06] [DBG]   dwEntityList = 0x254ee60
+[16:19:06] [DBG] Parsing schema offsets...
+[16:19:06] [WRN] ParseClassField: field 'm_iIDEntIndex' not found in class 'C_CSPlayerPawnBase'.
+[16:19:06] [WRN] ParseClassField: field 'm_hActiveWeapon' not found in class 'C_BaseCombatCharacter'.
+[16:19:06] [WRN] ParseClassField: field 'm_iItemDefinitionIndex' not found in class 'C_EconEntity'.
+[16:19:06] [DBG]   m_iHealth = 0x34c
+[16:19:06] [DBG]   m_iTeamNum = 0x3e7
+[16:19:06] [DBG]   m_hPlayerPawn = 0x914
+[16:19:06] [DBG]   m_iIDEntIndex = 0x0  <-- WARNING: zero!
+[16:19:06] [DBG]   m_fFlags = 0x3f4
+[16:19:06] [DBG]   m_lifeState = 0x354
+[16:19:06] [DBG]   m_entitySpottedState = 0x1c58
+[16:19:06] [DBG]   m_bSpotted = 0x8
+[16:19:06] [DBG]   m_bSpottedByMask = 0xc
+[16:19:06] [DBG]   m_vecVelocity = 0x430
+[16:19:06] [DBG]   m_pGameSceneNode = 0x330
+[16:19:06] [DBG]   m_pAimPunchServices = 0x14b8
+[16:19:06] [DBG]   m_aimPunchAngle = 0x50
+[16:19:06] [DBG]   m_vecViewOffset = 0xe78
+[16:19:06] [DBG]   m_vecAbsOrigin = 0xc8
+[16:19:06] [DBG]   m_hActiveWeapon = 0x0  <-- WARNING: zero!
+[16:19:06] [DBG]   m_iClip1 = 0x1700
+[16:19:06] [DBG]   m_iItemDefinitionIndex = 0x0  <-- WARNING: zero!
+[16:19:06] [DBG] All offsets loaded and validated. JSON memory stripped.
+[16:19:08] [INF] Aimbot initialized. clientBase=0x7FFF8B610000
+[16:19:08] [INF] Radar initialized.
+[16:19:08] [INF] Radar loop started.
+[16:19:13] [INF] Aimbot toggled: OFF
+[16:20:15] [INF] Aimbot toggled: ON
+[16:20:32] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.600000 rcs=ON
+[16:20:32] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.500000 rcs=ON
+[16:20:33] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.400000 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.300000 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.200000 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.100000 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=3.000000 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.900001 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.800001 rcs=ON
+[16:20:34] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.700001 rcs=ON
+[16:20:35] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.600001 rcs=ON
+[16:20:35] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.500001 rcs=ON
+[16:20:35] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.400001 rcs=ON
+[16:20:35] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.300001 rcs=ON
+[16:20:35] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.200001 rcs=ON
+[16:20:36] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.100001 rcs=ON
+[16:20:36] [DBG] [Aimbot] Config: bone=6 fov=8.000000 smooth=2.000001 rcs=ON
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=1068 fov=4.807745
+[16:21:58] [INF] [Aimbot] Target locked: pawn=0x403A69DE800 hp=100 dist=1068.820068
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=557 fov=1.503631
+[16:21:58] [INF] [Aimbot] Target locked: pawn=0x403A92A7000 hp=100 dist=557.962524
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=554 fov=1.357971
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=551 fov=1.249135
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=549 fov=1.135222
+[16:21:58] [DBG] [Aimbot] Target: hp=100 dist=545 fov=1.057954
+[16:23:54] [INF] Aimbot toggled: OFF
+[16:33:59] [INF] Aimbot toggled: ON
+[16:34:19] [DBG] [Aimbot] Target: hp=100 dist=1197 fov=1.433950
+[16:34:19] [INF] [Aimbot] Target locked: pawn=0x403A92A7000 hp=100 dist=1197.942383
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=1.736974
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=1.862986
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=1.906186
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=2.046697
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=2.037496
+[16:34:19] [DBG] [Aimbot] Target: hp=19 dist=1197 fov=2.025260
+[16:34:26] [DBG] [Aimbot] Target: hp=19 dist=474 fov=4.025696
+[16:34:26] [DBG] [Aimbot] Target: hp=19 dist=474 fov=3.632163
+[16:34:26] [DBG] [Aimbot] Target: hp=19 dist=474 fov=3.363946
+[16:34:26] [DBG] [Aimbot] Target: hp=19 dist=474 fov=2.799112
+[16:34:26] [DBG] [Aimbot] Target: hp=19 dist=476 fov=2.075280
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=2.355095
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=1.589916
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=0.770248
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=0.474365
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=0.335135
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=473 fov=0.844878
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=472 fov=0.303258
+[16:34:27] [DBG] [Aimbot] Target: hp=19 dist=472 fov=0.490588
+[16:35:39] [INF] Aimbot toggled: OFF
+[16:42:58] [WRN] Triggerbot thread stopped.
+[16:42:58] [WRN] Bhop thread stopped.
+[16:42:58] [INF] Aimbot loop terminated.
+[16:42:58] [INF] Radar loop terminated.
+[16:42:58] [WRN] Connection lost: cs2.exe was closed. Re-entering watchdog.
+[16:43:00] [ERR] !!! UNHANDLED EXCEPTION — CRASH LOGGED !!!
+[16:43:00] [ERR] Mapped Code: UNKNOWN_EXCEPTION (Code: 0x3765269347)
+[16:43:00] [ERR] Exception address: 0x7ff8c8221c0a
+[16:43:00] [ERR] --- Call Stack Trace ---
+[16:43:00] [ERR]   [0] KERNELBASE.dll!RaiseException (PC: 0x7ff8c8221c0a)
+[16:43:00] [ERR]   [1] VCRUNTIME140.dll!CxxThrowException (PC: 0x7ff8a8ec55a9)
+[16:43:00] [ERR]   [2] Timsu.exe!unknown_function (PC: 0x7ff6266418d1)
+[16:43:00] [ERR]   [3] Timsu.exe!unknown_function (PC: 0x7ff626633a79)
+[16:43:00] [ERR]   [4] Timsu.exe!unknown_function (PC: 0x7ff62663e4f8)
+[16:43:00] [ERR]   [5] Timsu.exe!unknown_function (PC: 0x7ff626644205)
+[16:43:00] [ERR]   [6] Timsu.exe!unknown_function (PC: 0x7ff62666709f)
+[16:43:00] [ERR]   [7] KERNEL32.DLL!BaseThreadInitThunk (PC: 0x7ff8c9d4e957)
+[16:43:00] [ERR]   [8] ntdll.dll!RtlUserThreadStart (PC: 0x7ff8cad0ad6c)
+[16:43:00] [ERR] ------------------------
+[16:43:01] [ERR] Crash dump written to: timsu_crash_20260714_164300.dmp
+
+=== Log closed ===
